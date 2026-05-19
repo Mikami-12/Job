@@ -1,0 +1,361 @@
+/* ============================================================
+   JOBSEEK — CUSTOM STYLESHEET
+   Pangalan ng Student: ______________________________
+   Theme Name:          ______________________________ // Anong style would best describe this stylesheet
+   ============================================================ */
+
+/* --- Google Fonts Import (optional) ---
+   Pumunta sa https://fonts.google.com, pumili ng font,
+   i-copy ang @import link, i-paste dito.
+
+   Halimbawa:
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+  --color-header: #0F172A;
+  --color-page-bg: #F1F5F9;
+  --color-card-bg: #FFFFFF;
+  --color-footer: #0F172A;
+  --color-accent: #14B8A6;
+  --color-link: #0EA5E9;
+  --color-heading: #FFFFFF;
+  --color-body-text: #334155;
+  --color-tag-bg: #DFF7F4;
+  --color-tag-text: #0F766E;
+  --showcase-overlay: rgba(15, 23, 42, 0.72);
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --border-radius: 12px;
+  --card-shadow:
+    0 10px 25px rgba(15, 23, 42, 0.06),
+    0 4px 10px rgba(15, 23, 42, 0.04);
+}
+
+
+body {
+
+  font-family: var(--font-body) !important;
+
+  background-color: var(--color-page-bg) !important;
+
+  color: var(--color-body-text) !important;
+
+  line-height: 1.7 !important;
+
+  letter-spacing: -0.01em !important;
+
+  text-rendering: optimizeLegibility !important;
+
+  -webkit-font-smoothing: antialiased !important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-family: var(--font-heading) !important;
+
+  font-weight: 700 !important;
+
+  letter-spacing: -0.03em !important;
+
+  line-height: 1.15 !important;
+}
+
+
+.bg-white h1,
+.bg-white h2,
+.bg-white h3,
+.bg-white h4,
+.bg-white h5,
+.bg-white h6,
+
+.bg-gray-100 h1,
+.bg-gray-100 h2,
+.bg-gray-100 h3 {
+
+  color: #0F172A !important;
+}
+
+header h1,
+header h2,
+header h3,
+.bg-blue-900 h1,
+.bg-blue-900 h2,
+.bg-blue-900 h3 {
+
+  color: #FFFFFF !important;
+}
+
+a {
+
+  color: var(--color-link) !important;
+
+  text-decoration: none !important;
+
+  transition: all 0.2s ease-in-out !important;
+}
+
+a:hover {
+
+  opacity: 0.85 !important;
+}
+
+header {
+
+  background-color: var(--color-header) !important;
+
+  backdrop-filter: blur(10px) !important;
+}
+
+.bg-blue-900,
+.bg-blue-800 {
+
+  background-color: var(--color-header) !important;
+}
+
+.bg-yellow-500,
+.bg-blue-500,
+.bg-green-500 {
+
+  background-color: var(--color-accent) !important;
+
+  color: #FFFFFF !important;
+}
+
+.text-yellow-500 {
+
+  color: var(--color-accent) !important;
+}
+
+.text-blue-700,
+.text-blue-500,
+.text-blue-900 {
+
+  color: var(--color-link) !important;
+}
+
+
+.hover\:bg-yellow-600:hover,
+.hover\:bg-blue-600:hover,
+.hover\:bg-green-600:hover {
+
+  background-color: var(--color-accent) !important;
+
+  filter: brightness(0.95) !important;
+
+  transform: translateY(-1px) !important;
+}
+
+
+.bg-white {
+
+  background-color: var(--color-card-bg) !important;
+
+  border-radius: var(--border-radius) !important;
+
+  box-shadow: var(--card-shadow) !important;
+
+  transition: all 0.25s ease !important;
+}
+
+.bg-white:hover {
+
+  transform: translateY(-2px) !important;
+
+  box-shadow:
+    0 14px 30px rgba(15, 23, 42, 0.08),
+    0 6px 12px rgba(15, 23, 42, 0.06) !important;
+}
+
+
+.bg-indigo-100 {
+
+  background-color: var(--color-tag-bg) !important;
+}
+
+.text-indigo-700,
+.text-indigo-800 {
+
+  color: var(--color-tag-text) !important;
+
+  font-weight: 600 !important;
+}
+
+
+
+button {
+
+  border-radius: var(--border-radius) !important;
+}
+
+
+.overlay {
+
+  background-color: var(--showcase-overlay) !important;
+}
+
+footer,
+.bg-indigo-900 {
+
+  background-color: var(--color-footer) !important;
+
+  color: #CBD5E1 !important;
+}
+
+.bg-gray-100 {
+
+  background-color: var(--color-page-bg) !important;
+}
+
+.bg-white h2 {
+
+  color: #0F172A !important;
+}
+
+
+.copy-right,
+.bg-white a.block {
+
+  background-color: #E2E8F0 !important;
+}
+
+.copy-right {
+
+  padding-bottom: 1rem !important;
+}
+
+
+.h2-style {
+
+  font-size: 2.5rem !important;
+
+  font-weight: 700 !important;
+
+  letter-spacing: -0.03em !important;
+
+  line-height: 1.1 !important;
+}
+
+
+.marg-bot {
+
+  margin-bottom: 1.5rem !important;
+}
+
+.custom-section {
+
+  padding-top: 4rem !important;
+
+  padding-bottom: 4rem !important;
+}
+
+a.btn-primary-action {
+
+  background-color: var(--color-accent) !important;
+
+  color: #FFFFFF !important;
+
+  display: inline-flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  width: fit-content !important;
+
+  margin-left: auto !important;
+
+  margin-right: auto !important;
+
+  padding: 12px 24px !important;
+
+  border-radius: 10px !important;
+
+  font-weight: 600 !important;
+
+  letter-spacing: 0.02em !important;
+
+  box-shadow:
+    0 4px 14px rgba(20, 184, 166, 0.25) !important;
+
+  transition: all 0.25s ease !important;
+}
+
+a.btn-primary-action:hover {
+
+  transform: translateY(-1px) !important;
+
+  filter: brightness(1.05) !important;
+}
+
+input,
+select,
+textarea {
+
+  border: 1px solid #CBD5E1 !important;
+
+  background-color: #FFFFFF !important;
+
+  border-radius: 10px !important;
+
+  padding: 12px 14px !important;
+
+  color: #1E293B !important;
+
+  transition: all 0.2s ease !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+
+  outline: none !important;
+
+  border-color: var(--color-accent) !important;
+
+  box-shadow:
+    0 0 0 4px rgba(20, 184, 166, 0.15) !important;
+}
+
+a,
+button {
+
+  transition: all 0.2s ease-in-out !important;
+}
+
+.text-base {
+
+  line-height: 1.75 !important;
+}
+
+.text-gray-700 {
+
+  color: #475569 !important;
+}
+
+.text-gray-500 {
+
+  color: #64748B !important;
+}
+.bg-white a.block {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+.hero-title {
+  color: #FFFFFF !important;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+h2 {
+  color: #FFFFFF !important;
+}

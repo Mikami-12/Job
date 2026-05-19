@@ -1,0 +1,17 @@
+{
+    "name": "mikami_12/ws03-php",
+    "description": "Job seeker application",
+    "authors": [
+        {
+            "name": "Kento Mikami",
+            "email": "kento.mikami28@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\":
+            "Framework/",
+            "App\\": "App/"
+        }
+    }
+}
